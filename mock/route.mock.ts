@@ -54,10 +54,6 @@ const power = [
         path: 'bar',
         name: 'RtBar',
       },
-      {
-        path: 'map',
-        name: 'RtMap',
-      },
     ],
   },
   {
@@ -176,6 +172,40 @@ const testPermissionRouter = [
   },
 ];
 
+const waitressPermissionRouter = [
+  {
+    path: '/permissions',
+    name: 'RtPermissions',
+    children: [
+      {
+        path: 'page',
+        name: 'RtPermissionsPage',
+      },
+      {
+        path: 'test-page-test',
+        name: 'RtPermissionsTestPageTest',
+      },
+    ],
+  },
+];
+
+const cookPermissionRouter = [
+  {
+    path: '/permissions',
+    name: 'RtPermissions',
+    children: [
+      {
+        path: 'page',
+        name: 'RtPermissionsPage',
+      },
+      {
+        path: 'test-page-test',
+        name: 'RtPermissionsTestPageTest',
+      },
+    ],
+  },
+];
+
 // permissionRouter
 
 export default defineFakeRoute([
@@ -194,6 +224,18 @@ export default defineFakeRoute([
       } else if (name == 'test') {
         return {
           data: [...power, ...testPermissionRouter],
+          code: 1,
+          message: 'ok',
+        };
+      } else if (name == 'waitress') {
+        return {
+          data: [...power, ...waitressPermissionRouter],
+          code: 1,
+          message: 'ok',
+        };
+      } else if (name == 'cook') {
+        return {
+          data: [...power, ...cookPermissionRouter],
           code: 1,
           message: 'ok',
         };

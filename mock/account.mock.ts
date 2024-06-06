@@ -22,6 +22,28 @@ const userInfo2 = {
   role: 'test',
 };
 
+const userInfo3 = {
+  name: 'waitress',
+  userid: '00000003',
+  email: '12377777773@qq.com',
+  signature: '小啊小啊浪',
+  introduction: '一个只会喝蜂蜜绿的小前端',
+  title: 'waitressss',
+  token: '',
+  role: 'waitress',
+};
+
+const userInfo4 = {
+  name: 'cook',
+  userid: '00000004',
+  email: '12888888888@qq.com',
+  signature: '小啊小啊浪',
+  introduction: '一个只会喝蜂蜜绿的小前端',
+  title: 'cookerrrr',
+  token: '',
+  role: 'cook',
+};
+
 export default defineFakeRoute([
   {
     url: '/mock_api/login',
@@ -40,6 +62,20 @@ export default defineFakeRoute([
         userInfo2.token = genID(16);
         return {
           data: userInfo2,
+          code: 1,
+          message: 'ok',
+        };
+      } else if (username == 'waitress' && password == 'waitress123') {
+        userInfo3.token = genID(16);
+        return {
+          data: userInfo3,
+          code: 1,
+          message: 'ok',
+        };
+      } else if (username == 'cook' && password == 'cook123') {
+        userInfo4.token = genID(16);
+        return {
+          data: userInfo4,
           code: 1,
           message: 'ok',
         };

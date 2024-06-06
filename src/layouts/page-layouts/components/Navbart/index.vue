@@ -3,16 +3,16 @@
   import { ref } from 'vue';
   import Sidebar from '../../components/Sidebar/index.vue';
   import MinSidebar from '../../components/Sidebar/MinSidebar.vue';
-  import Setting from '../../components/Seting/index.vue';
+  // import Setting from '../../components/Seting/index.vue';
   import Breadcrumb from '../../components/Breadcrumb/index.vue';
   import AppLogo from '../AppLogo/index.vue';
 
-  import { AppLocale, AppTheme, AppAccount } from '@/components/Application';
+  import { AppTheme, AppAccount } from '@/components/Application';
 
   import SvgIcon from '@/components/SvgIcon/index.vue';
   import { useRootSetting } from '@/hooks/setting/useRootSetting';
 
-  const drawer = ref(false);
+  // const drawer = ref(false);
 
   const { appConfig } = useRootSetting();
 
@@ -55,16 +55,16 @@
         <el-tooltip :content="$t('layout.navbar.fullScreen')" placement="bottom">
           <SvgIcon class="cursor" :name="full_screen" @click="fullScreenChange"></SvgIcon>
         </el-tooltip>
-        <AppLocale class="icon"></AppLocale>
+        <!-- <AppLocale class="icon"></AppLocale> -->
         <AppTheme></AppTheme>
         <AppAccount></AppAccount>
-        <SvgIcon class="cursor" name="iEL-setting" @click="drawer = true"></SvgIcon>
+        <!-- <SvgIcon class="cursor" name="iEL-setting" @click="drawer = true"></SvgIcon> -->
       </div>
     </div>
-    <div v-show="appConfig.hideNavbart" class="setting-icon cursor">
+    <!-- <div v-show="appConfig.hideNavbart" class="setting-icon cursor">
       <SvgIcon name="iEL-setting" @click="drawer = true"></SvgIcon>
     </div>
-    <Setting v-model:modelValue="drawer"></Setting>
+    <Setting v-model:modelValue="drawer"></Setting> -->
   </div>
 </template>
 

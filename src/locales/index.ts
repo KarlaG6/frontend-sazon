@@ -13,12 +13,16 @@ const localesList: LocalesType[] = [
     name: '中文简体',
     locale: LocalesEnum.ZHCN,
   },
+  {
+    name: 'Español',
+    locale: LocalesEnum.SP,
+  },
 ];
 
 const i18n = createI18n({
   legacy: false,
-  locale: LocalesEnum.ZHCN,
-  fallbackLocale: LocalesEnum.ZHCN,
+  locale: LocalesEnum.SP,
+  fallbackLocale: LocalesEnum.SP,
   messages: messages as LocaleMessages,
 });
 

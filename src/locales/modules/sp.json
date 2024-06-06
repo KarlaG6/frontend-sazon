@@ -1,0 +1,128 @@
+{
+  "api": {
+    "errMsg401": "El usuario no tiene permisos!",
+    "errMsg403": "El usuario está autorizado, pero el acceso está prohibido!",
+    "errMsg404": "Error en la solicitud de red, ¡el recurso no fue encontrado!",
+    "errMsg405": "Error en la solicitud de red, ¡método de solicitud no permitido!",
+    "errMsg408": "¡Tiempo de espera de la solicitud de red agotado!",
+    "errMsg500": "Error del servidor, ¡por favor contacte al administrador!",
+    "errMsg501": "¡La red no está implementada!",
+    "errMsg502": "¡Error de red!",
+    "errMsg503": "El servicio no está disponible, el servidor está temporalmente sobrecargado o en mantenimiento!",
+    "errMsg504": "¡Tiempo de espera de la red agotado!",
+    "errMsg505": "¡La versión HTTP no soporta la solicitud!"
+  },
+  "error-page": {
+    "403": {
+      "title": "Sin Acceso",
+      "description": "Lo siento, el acceso a este recurso en el servidor está denegado."
+    },
+    "404": {
+      "title": "Página No Encontrada",
+      "description": "Lo siento, la página que estás buscando no se puede acceder."
+    },
+    "500": {
+      "title": "El servidor está reportando un error.",
+      "description": "Ocurrió un error inesperado y su solicitud no se pudo completar."
+    },
+    "back": "Volver al Inicio"
+  },
+  "layout": {
+    "setup": "Configurar",
+    "layoutSettings": "Configuraciones del Diseño",
+    "themeSettings": "Configuraciones del Tema",
+    "customTheme": "Tema Personalizado",
+    "greyMode": "Modo Gris",
+    "colorWeaknessMode": "Modo de Debilidad de Color",
+    "pageSettings": "Configuraciones de la Página",
+    "hideSidebar": "Ocultar Barra Lateral",
+    "hideNavBart": "Ocultar Barra de Navegación",
+    "hideTabs": "Ocultar Pestañas",
+    "hideTabsConfig": "Configurar Ocultación de Pestañas",
+    "labelPersistent": "Etiqueta Persistente",
+    "sidebarFold": "Botón de Plegado de Barra Lateral",
+    "sidebarFoldList": {
+      "top": "Arriba",
+      "bottom": "Abajo",
+      "none": "Ninguno"
+    },
+    "clearStorage": "Borrar caché y regresar a la página de inicio de sesión",
+    "navbar": {
+      "fullScreen": "Pantalla Completa"
+    },
+    "closeTabDrag": "Cerrar arrastre de pestañas"
+  },
+  "route": {
+    "pathName": {
+      "index": "Inicio",
+      "functions": "Funciones",
+      "waterMark": "Marca de Agua",
+      "pdf": "PDF",
+      "docx": "Docx",
+      "guide": "Página de Guía",
+      "components": "Componentes",
+      "dragCpts": "Componentes de Arrastre",
+      "countTo": "Animación Digital",
+      "form": "Formulario",
+      "seamlessScroll": "Desplazamiento Sin Interrupciones",
+      "date": "Fecha",
+      "dateSelect": "Selección de Fecha",
+      "calendar": "Calendario",
+      "table": "Tabla",
+      "echarts": "Echarts",
+      "echarts_bar": "Barra",
+      "echarts_map": "Mapa",
+      "editor": "Editor",
+      "editor_logicFlow": "Flujo Lógico",
+      "editor_richText": "Editor de Texto Enriquecido",
+      "editor_markdown": "Markdown",
+      "asyncComponent": "Componente Asíncrono",
+      "refSyntax": "Sintaxis Ref",
+      "userDateil": "Detalle del Usuario",
+      "permissions": "Permisos",
+      "permissionsPage": "Alternar Permisos",
+      "testPermissionsPage1": "Permisos de Admin",
+      "testPermissionsPage2": "Permisos de Prueba",
+      "detailsPage": "Página de Detalles",
+      "error": "Error",
+      "error403": "403",
+      "error404": "404",
+      "error500": "500",
+      "externalLink": "Enlace Externo",
+      "externalDocument": "Documento Externo",
+      "embeddedDocument": "Documento Embebido",
+      "nested": "Ruta Anidada",
+      "nested1": "Ruta1",
+      "nested1_1": "Ruta1-1",
+      "nested1_2": "Ruta1-2",
+      "nested1_2_1": "Ruta1-2-1",
+      "nested1_2_2": "Ruta1-2-2",
+      "nested1_3": "Ruta1-3",
+      "nested2": "Ruta2",
+      "about": "Acerca de"
+    },
+    "log": {
+      "importError": "El archivo no tiene una exportación por defecto"
+    }
+  },
+  "sys": {
+    "errorTip": "Consejo de Error",
+    "okText": "OK",
+    "closeText": "Cerrar",
+    "cancelText": "Cancelar",
+    "loadingText": "Cargando...",
+    "saveText": "Guardar",
+    "delText": "Eliminar",
+    "login": {
+      "userName": "Nombre de Usuario",
+      "password": "Contraseña",
+      "loginButton": "Iniciar Sesión",
+      "rememberPassword": "Recordar Contraseña",
+      "forgotPassword": "¿Olvidaste tu Contraseña?",
+      "rules": {
+        "userName": "Por favor ingrese su nombre de usuario",
+        "password": "Por favor ingrese su contraseña"
+      }
+    }
+  }
+}

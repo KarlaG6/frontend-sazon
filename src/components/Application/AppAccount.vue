@@ -20,7 +20,7 @@
       <img src="@/assets/login/logo.png" class="wave" />
       <template #dropdown>
         <el-dropdown-menu>
-          <el-dropdown-item command="signOut">退出登录</el-dropdown-item>
+          <el-dropdown-item command="signOut">Cerrar sesion</el-dropdown-item>
         </el-dropdown-menu>
       </template>
     </el-dropdown>
