@@ -18,6 +18,8 @@
 账号：admin  
 密码：admin123
 
+账号：waitress密码：waitress123
+
 ## 文档
 
 - [github 站点](https://jsxiaosi.github.io/vue-xs-admin-docs/)

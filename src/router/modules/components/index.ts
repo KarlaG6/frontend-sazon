@@ -16,6 +16,18 @@ const component: AppRouteRecordRaw[] = [
         meta: { title: t('route.pathName.form'), keepAlive: true },
       },
       {
+        path: 'order',
+        name: 'RtOrder',
+        component: () => import('@/views/components/order/index.vue'),
+        meta: { title: t('route.pathName.order') },
+      },
+      {
+        path: 'tables',
+        name: 'RtTables',
+        component: () => import('@/views/components/tables/index.vue'),
+        meta: { title: t('route.pathName.tables') },
+      },
+      {
         path: 'table',
         name: 'RtTable',
         component: () => import('@/views/components/table-page/index.vue'),

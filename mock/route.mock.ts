@@ -14,6 +14,14 @@ const power = [
         name: 'RtForm',
       },
       {
+        path: 'order',
+        name: 'RtOrder',
+      },
+      {
+        path: 'tables',
+        name: 'RtTables',
+      },
+      {
         path: 'table',
         name: 'RtTable',
       },
