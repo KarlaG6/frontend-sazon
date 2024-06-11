@@ -180,22 +180,7 @@ const testPermissionRouter = [
   },
 ];
 
-const waitressPermissionRouter = [
-  {
-    path: '/permissions',
-    name: 'RtPermissions',
-    children: [
-      {
-        path: 'page',
-        name: 'RtPermissionsPage',
-      },
-      {
-        path: 'test-page-test',
-        name: 'RtPermissionsTestPageTest',
-      },
-    ],
-  },
-];
+const waitressPermissionRouter = [];
 
 const cookPermissionRouter = [
   {
